@@ -11,10 +11,10 @@ const LeadsTable = () => {
   
 
   // Meta API Token
-  const ACCESS_TOKEN = 'EAAMAWRBboPIBO87PPmdJdsBd0WjJUw3GZBhYaS1fzmHE97k41JXyRIMhjTmV6lk3VGRRZCJvlrF2fZAJJgANlIwVosGuH30Qaz5eAimreSB57CNisVZArX5tLke0JqMkhZBDuJdlhXlGA5SZBSa1BQjZBUqBVNdUiUXmsPoZB7212Wg2rlPaNelheIlVm1g6Dc96APXfMoX7';
+  const ACCESS_TOKEN = 'Enter Your Access Token Here';
 
   // Meta API formId 
-  const formId = 1564826437399879;
+  const formId = Enter Your Ad Form Id;
 
   // Fetch Leads Data
   useEffect(() => {
