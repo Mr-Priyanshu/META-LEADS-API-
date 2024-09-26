@@ -1,17 +1,36 @@
-# React + Vite Template
+# Meta API Integration for Lead Management in React + Vite
 
-This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
+This repository provides a minimal setup to integrate the **Meta API** for managing leads in your **CRM** application built with **React** and **Vite**. 
 
-## Available Plugins
-
-Currently, two official plugins are available:
-
-- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md): Utilizes [Babel](https://babeljs.io/) for Fast Refresh.
-- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc): Utilizes [SWC](https://swc.rs/) for Fast Refresh.
+## Mr-Priyanshu
+----------------------------------------------------------------------------------
 
 ## Integrating Meta API for Lead Management
 
-This guide will walk you through integrating Meta API to manage leads within your CRM or any project.
+Follow these steps to efficiently manage leads through the **Meta API**:
+
+### Prerequisites
+1. **Facebook Account**: Ensure you have a verified Facebook account.
+2. **Active Ad Campaigns**: Confirm that you have active ad campaigns on Facebook.
+3. **Meta Setup Verification**: Ensure your **Meta for Developers** setup is complete.
+
+### Step-by-Step Integration
+1. **Open Meta Developer Mode**: Access the [Meta for Developers](https://developers.facebook.com/) portal.
+2. **Create a New App**: 
+   - Navigate to **My Apps**.
+   - Click on **Create New App** and follow the setup process.
+3. **Generate Access Token**: 
+   - Go to the Graph API section and generate a User Access Token.
+4. **Fetching Lead Data**: 
+   - Use the `form_id` to submit requests and retrieve lead information.
+5. **Using the Leads API**: 
+   - Access the `/leads` endpoint to fetch all leads.
+6. **Testing with Postman**: 
+   - Test the API request using Postman to ensure data retrieval.
+
+### Integrating with Your CRM
+- Store leads in your database directly from the frontend using API responses, ensuring all data is safely saved.
+
 
 ### Prerequisites
 
